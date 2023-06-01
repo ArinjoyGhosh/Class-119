@@ -1,0 +1,65 @@
+body {
+    background-image: linear-gradient(rgb(240, 240, 12), rgb(255, 153, 0));
+}
+h1 {
+    font-family: 'Dongle', sans-serif;
+    font-size: 65px;
+}
+button {
+    margin-left: 110px !important;
+    margin-top: -45px;
+    background-color: rgb(186, 178, 176);
+    border-color: transparent;
+    border-radius: 15px;
+    height: 30px;
+    width: 140px;
+    margin-left: 0px;
+}
+#effect {
+    background-color: white;
+    padding: 7px 7px 7px 7px;
+    width: 250px;
+    border-radius: 20px;
+    height: 57px;
+}
+#right_side {
+    float: left;
+}
+#effect2 {
+    background-color: white;
+    padding: 7px 7px 7px 7px;
+    width: 250px;
+    border-radius: 20px;
+    height: 57px;
+    margin-left: 100px;
+}
+h3 {
+    width:fit-content;
+    margin-left: -200px;
+}
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px rgb(243, 239, 239);}
+  to {box-shadow: 1px 1px 38px white;}
+
+}
+
+p, span
+  {
+    padding-top:10px;
+    font-family: 'Special Elite', fantasy;
+    font-size:25px;
+    
+  }
